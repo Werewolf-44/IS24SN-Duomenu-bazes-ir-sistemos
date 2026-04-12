@@ -59,7 +59,7 @@ FROM Vykdytojai;
 SELECT INITCAP(Pavarde) AS Pavarde,
        LENGTH(Pavarde) AS Pavardes_ilgis
 FROM Vykdytojai
-WHERE SUBSTR(UPPER(Pavarde), 1, 1) IN ('J', 'G', 'A')
+WHERE SUBSTR(UPPER(Pavarde), 1, 1) IN ('J', 'G', 'A') <-- nuo kurio simbolio pradėti ir kiek simbolių paimti
 ORDER BY Pavarde;
 */
 
